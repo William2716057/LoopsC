@@ -10,6 +10,12 @@ int main() {
     }
 
 
+    for (int i = 0; i < 6; i++) {
+        std::string x = "* ";
+        x = x + std::string(6 - i, '*');
+        std::cout << std::string(10 - x.length() / 2, ' ') << x << std::endl;
+    }
+
 
 
     return 0;
